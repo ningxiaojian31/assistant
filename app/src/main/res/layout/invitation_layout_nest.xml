@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:id="@+id/tv_title_nest"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="14sp"
+            android:textColor="#00b3ff" />
+
+        <TextView
+            android:id="@+id/tv_inv_info_nest"
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:id="@+id/tv_title_nest2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="14sp"
+            android:textColor="#00b3ff" />
+
+        <TextView
+            android:id="@+id/tv_inv_info_nest2"
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_inv_info_count"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:layout_height="20dp"
+        android:textColor="#00b3ff" />
+
+
+
+
+
+</LinearLayout>

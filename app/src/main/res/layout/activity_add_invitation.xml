@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddInvitationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/iv_inv_add_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/back"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="匿名"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/et_inv_add"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="发布树洞"
+            android:gravity="top"
+            android:minLines="5"
+            android:background="@null"/>
+
+        <Button
+            android:id="@+id/btn_inv_add"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_inv_add_bt"
+            android:text="发布"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>
